@@ -1,0 +1,231 @@
+{
+  "repository": "auto-video",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "repo": "auto-lang",
+      "commit": "17292c07e792e80d4e4da5495fc3fc2917e8aa1e",
+      "path": "examples/ui/030-video-player",
+      "primary": true,
+      "fileCount": 18,
+      "pacFields": {
+        "name": "video-player",
+        "version": "0.1.0",
+        "description": "AutoOS System Video Player - minimal chromeless viewport, OSD controls & playlist (vue/vm)",
+        "scene": "ui",
+        "render": "vue",
+        "api": "rust",
+        "front_port": "3030",
+        "back_port": "8330",
+        "media_root": "E:\\\\Video",
+        "icon": "film",
+        "title": "Video Player",
+        "title_zh": "视频播放器",
+        "category": "media",
+        "desktop": "true",
+        "theme": "dark",
+        "accent": "indigo"
+      },
+      "files": [
+        {
+          "sourcePath": "examples/ui/030-video-player/README.md",
+          "path": "README.md",
+          "sha256": "b55006ffe9d7d67599925db02476cae58b465ae20c4981c1d204d503dfa942f1"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/SPEC.md",
+          "path": "SPEC.md",
+          "sha256": "5d7d60f76a1032c655ac7661b035da9dffda76d657a10e39ae5d8f0af17843e2"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/pac.at",
+          "path": "pac.at",
+          "sha256": "4b29708520f2b8e1aa5416ddb94ae8c947b2436bb22ff00e41bd220b1ee20e7f"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/src/front/app.at",
+          "path": "src/front/app.at",
+          "sha256": "49d84f801af4093166ce0462d3d11141383e40e08722ee560e358070f2b015fb"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/src/front/controls.at",
+          "path": "src/front/controls.at",
+          "sha256": "8b944da9b1609ff30f6963988646197317d305efb11d31ac840b0d81d7d50b5a"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/src/front/file_picker.vue",
+          "path": "src/front/file_picker.vue",
+          "sha256": "700a33d685cf19bc51b58fe314e495d7dee8ccfe2199a37898d497cf4884c900"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/src/front/player_store.at",
+          "path": "src/front/player_store.at",
+          "sha256": "e5eb6f41f3353a0d12fc32c0d1d66020fe964bf15c6d1a1af182ca6a0f2803a6"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/src/front/playlist.at",
+          "path": "src/front/playlist.at",
+          "sha256": "80d7a49ba1f9c539dbef59cc56f7a025854a6c5aa059a292e90d9c172a9ada86"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/src/front/viewport.at",
+          "path": "src/front/viewport.at",
+          "sha256": "38bd6f6901b93dfa5672633f9b99cb884696b362e7c7133a5d4f7f2ed0ef3b1e"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/assert-style.sh",
+          "path": "tests/assert-style.sh",
+          "sha256": "91f6dbab8ad525ee2f5e983f70a6f945a1d11a51db0ec2c81dbeebc332217d7e"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/capture_t11_shots.mjs",
+          "path": "tests/capture_t11_shots.mjs",
+          "sha256": "5f7bfc1aaf3b94684d634daf9e6196c7ca77046cd33186a73e1def492a1e9839"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/media-root-inventory.txt",
+          "path": "tests/media-root-inventory.txt",
+          "sha256": "6123abb5abdd2a3a8554fec727ba801f360fa061dfa971619ee87a9a43890412"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/package.json",
+          "path": "tests/package.json",
+          "sha256": "b92da3f0339c205b0b5d334ef61b480ff9dc18a2ddfe61a16aabc434f9d30c05"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/playwright-report/index.html",
+          "path": "tests/playwright-report/index.html",
+          "sha256": "c2efd2a2fea45c315b4346c50c5ed5582c4b75f6af7a36c76464e6b8eb6d81df"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/playwright.config.ts",
+          "path": "tests/playwright.config.ts",
+          "sha256": "c26a25bd0399b2bb8bd277db7503ff7517a44af7f4624434e9a2442c7f9f532e"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/pnpm-lock.yaml",
+          "path": "tests/pnpm-lock.yaml",
+          "sha256": "43f51b2d419b986d18b4f6965de56840865fe74dc3488e6e58c62a63e6057c43"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/smoke.spec.ts",
+          "path": "tests/smoke.spec.ts",
+          "sha256": "fed5944f04368f9c392483e61df064c485894fb3a5ffffcd63438164ba36fbe1"
+        },
+        {
+          "sourcePath": "examples/ui/030-video-player/tests/vm-smoke.mjs",
+          "path": "tests/vm-smoke.mjs",
+          "sha256": "ebe4a842dad44d0abc74ea53d322cc154b161475289a141a58def05e4fb486fd"
+        }
+      ]
+    },
+    {
+      "repo": "auto-lang",
+      "commit": "17292c07e792e80d4e4da5495fc3fc2917e8aa1e",
+      "path": "examples/ui/019-video-app",
+      "primary": false,
+      "fileCount": 17,
+      "pacFields": {
+        "name": "video-app",
+        "version": "1.0.0",
+        "scene": "ui",
+        "render": "vue",
+        "title": "Video App",
+        "title_zh": "视频应用",
+        "api": "rust",
+        "front_port": "3019",
+        "back_port": "8019",
+        "theme": "dark",
+        "accent": "pink"
+      },
+      "files": [
+        {
+          "sourcePath": "examples/ui/019-video-app/.gitignore",
+          "path": "references/019-video-app/.gitignore",
+          "sha256": "e02351efb7496edd49cebec14440ca9f939522e6aad7a8cec1cea7d2b318be88"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/README.md",
+          "path": "references/019-video-app/README.md",
+          "sha256": "5ef4ba9f16eebd311119fc80d904d5932edcda7eb9cf3ad05b812385c0d604a5"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/pac.at",
+          "path": "references/019-video-app/pac.at",
+          "sha256": "8acdda060a05d5fb2ec2be01f7046bd944729442fc11335f85bd35226bd5f487"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/back/api.at",
+          "path": "references/019-video-app/src/back/api.at",
+          "sha256": "eae694467915369702c05961939515c7743e8ed718ab43cc15d2f4f2d3b6be90"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/back/db.at",
+          "path": "references/019-video-app/src/back/db.at",
+          "sha256": "3a5fc7963d17e8c24d98ad0182bfa2e53f32cf27f951dbc254196e070823b1a0"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/front/app.at",
+          "path": "references/019-video-app/src/front/app.at",
+          "sha256": "ce0fabae3b5a8368fd2cc874fd4a3c7dc1ce3e4a33c9de946719dfbfdc3ae6ed"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/front/pages/home.at",
+          "path": "references/019-video-app/src/front/pages/home.at",
+          "sha256": "0ab04f62b8ba3dae88841e246bc0eb4099bf99c46f3312627cf1aaa6c86d0d09"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/front/pages/watch.at",
+          "path": "references/019-video-app/src/front/pages/watch.at",
+          "sha256": "d7084fa86972e08519109da128bd06685f3eb07a211a3450ac4eccb27a2daad4"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/front/settings.at",
+          "path": "references/019-video-app/src/front/settings.at",
+          "sha256": "26aeb31edd03cd2aaf71c78fc4bcacb24093f4771dfd4eef90c6be43909a09f7"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/src/front/video_store.at",
+          "path": "references/019-video-app/src/front/video_store.at",
+          "sha256": "13cc937c82b20ec83f0a434f58f6b65b600944adcc1527ebf5a257f711429c14"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/acceptance.atd",
+          "path": "references/019-video-app/tests/acceptance.atd",
+          "sha256": "f41bfdbad8e3f731f200e2c5d72ee68bb8fac9a1faf5b8add9be12f2f9728383"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/package.json",
+          "path": "references/019-video-app/tests/package.json",
+          "sha256": "c72f13b15c784e70b6e1e107f4ad527adba94b21affba80d2cebff772664e7b2"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/playwright.config.ts",
+          "path": "references/019-video-app/tests/playwright.config.ts",
+          "sha256": "0da13d19413173e82bc6224055ff0c5af8390a756e433d0bef1de29efce9a3f4"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/pnpm-lock.yaml",
+          "path": "references/019-video-app/tests/pnpm-lock.yaml",
+          "sha256": "affb484de69571d4a20496d73a380e407d6c106796cde5f354b322cd56c9a3d3"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/smoke.spec.ts",
+          "path": "references/019-video-app/tests/smoke.spec.ts",
+          "sha256": "f7c359e20821c7faea8e0e6c9398b807243a139dbf26a76216b7fd8d00e6f191"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/test_019_vm.py",
+          "path": "references/019-video-app/tests/test_019_vm.py",
+          "sha256": "e34ff9400e97679088d37e4326d8fd0a7fcafdd2d8c0379f61073ffedd989b97"
+        },
+        {
+          "sourcePath": "examples/ui/019-video-app/tests/vm-smoke.mjs",
+          "path": "references/019-video-app/tests/vm-smoke.mjs",
+          "sha256": "e8521f90bdd26ca45534db60a8a68ae54fa0e1ee9bf7967bd372592501c52f6d"
+        }
+      ]
+    }
+  ],
+  "note": "Exact committed source snapshots; packaging changes follow in a separate commit. References are not additional installed apps."
+}
