@@ -23,7 +23,7 @@ export default defineConfig({
   reporter: [['list'], ['html', { outputFolder: 'playwright-report', open: 'never' }]],
   outputDir: 'test-results/',
   use: {
-    baseURL: process.env.VIDEO_PLAYER_URL || 'http://localhost:3030',
+    baseURL: process.env.VIDEO_PLAYER_URL || 'http://localhost:17828',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',

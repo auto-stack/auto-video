@@ -5,7 +5,7 @@ import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const OUT = resolve(dirname(fileURLToPath(import.meta.url)), 'screenshots')
-const base = process.env.VIDEO_PLAYER_URL || 'http://localhost:3030'
+const base = process.env.VIDEO_PLAYER_URL || 'http://localhost:17828'
 
 const browser = await chromium.launch({ channel: 'chrome', args: ['--autoplay-policy=no-user-gesture-required'] })
 const page = await (await browser.newContext({ viewport: { width: 1280, height: 720 } })).newPage()

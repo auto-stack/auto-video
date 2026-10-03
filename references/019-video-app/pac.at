@@ -11,5 +11,5 @@ theme: "dark"
 accent: "pink"
 
 dep stylekit {
-    path: "../stylekit"
+    path: "../../vendor/stylekit"
 }
